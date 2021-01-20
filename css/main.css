@@ -27,6 +27,11 @@ html {
  * Customize the background color to match your design.
  */
 
+ background-img {
+   background: url(../img/jake-melara-30679-unsplash.jpg) no-repeat center center fixed;
+   height: 100%;
+ }
+
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;
@@ -260,4 +265,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
