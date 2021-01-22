@@ -92,6 +92,92 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* --------------------------- Base header - footer styles ----------------- */
+
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .social-icons p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/* -------------------- Mobile styles homepage -------------------------------*/
+
+/* hero area */
+
+.hero-area {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+}
+
+/* aside */
+
+aside {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+/*features*/
+
+.features {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.features .content-wrapper {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+/* reviews */
+
+.reviews {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
