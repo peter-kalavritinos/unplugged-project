@@ -510,7 +510,109 @@ aside {
 
    @media only screen and (min-width: 1200px) {
    /*Desktop styles here*/
+
+   /* General styles */
+   .content-wrapper {
+     max-width: 960px;
+     margin: 120px 0;
    }
+
+   /* Header */
+   header {
+     justify-content: space-around;
+     padding: 18px 0;
+   }
+
+   header .content-wrapper {
+     width: 100%;
+     justify-content: space-between;
+   }
+
+   header nav {
+     width: 20%;
+   }
+
+   header nav ul {
+     justify-content: space-between;
+   }
+
+   .header-divider {
+     display: none;
+   }
+   /* Hero Area */
+
+   /* Aside */
+   aside .content-wrapper {
+     justify-content: space-around;
+   }
+
+   aside .content-wrapper .form-description,
+   aside .content-wrapper .form {
+     width: 20%;
+     margin: 0;
+   }
+
+   /* Features */
+   .features .features-items {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     flex-flow: wrap;
+     flex-basis: 80%;
+   }
+
+   .features .features-item-description {
+     width: 40%;
+   }
+
+  /* Reviews */
+  .reviews article {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .reviews article div {
+    width: 49%;
+  }
+
+  /* Footer */
+  footer .content-wrapper {
+    width: 65%;
+    margin: 100px 0;
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  footer .contact {
+    margin-bottom: 0;
+  }
+
+  footer .copyright {
+    width: 100%;
+  }
+
+  /* ==========================================================================
+  About Page
+  ========================================================================== */
+
+  .mission h2,
+  .contact-section .content-wrapper h2 {
+      width: 95%;
+  }
+
+/* ==========================================================================
+FAQ Page
+========================================================================== */
+
+   .faq h2 {
+       width: 100%;
+   }
+  }
+
 
 /* ==========================================================================
    Print styles.
