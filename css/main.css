@@ -144,10 +144,12 @@ p {
 }
 
 img {
+  width: 100%;
 
 }
 
 figure {
+  margin: 0;
 
 }
 
@@ -187,6 +189,14 @@ header .content-wrapper {
   width: 100%;
   height: 1px;
   margin: 10px 0 20px 0;
+}
+
+header figure {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
 }
 
 header nav {
@@ -253,6 +263,11 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-image: url('../img/jake-melara-30679-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 500px;
 
 }
 
@@ -305,6 +320,9 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-image: url('../img/rawpixel-800820-unsplash1.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 .features h2 {
@@ -352,6 +370,7 @@ input[type=button] {
    ========================================================================== */
 
 .mission {
+  background-color: #527158;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -359,6 +378,7 @@ input[type=button] {
 }
 
 .contact-section {
+  background-color: #2a423a;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -374,6 +394,7 @@ input[type=button] {
    ========================================================================== */
 
 .faq {
+  background-color: #527158;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -493,6 +514,16 @@ input[type=button] {
       margin: 100px 0;
     }
 
+    h2 {
+      font-size: 2.25em;
+      line-height: 1.333;
+    }
+
+    h3 {
+        font-size: 1.5em;
+        line-height: 1.25;
+    }
+
     /* Header */
     header {
       justify-content: space-around;
@@ -503,6 +534,10 @@ input[type=button] {
       width: 100%;
       justify-content: space-between;
     }
+
+    header figure {
+    width: 30%;
+  }
 
     header nav {
       width: 20%;
@@ -516,6 +551,16 @@ input[type=button] {
       display: none;
     }
     /* Hero Area */
+
+    .hero-area {
+      min-height: 600px;
+    }
+
+    .hero-area h1 {
+      font-size: 3em;
+      line-height: 1;
+      margin: 0;
+  }
 
     /* Aside */
     aside .content-wrapper {
@@ -532,6 +577,11 @@ input[type=button] {
     }
 
     /* Features */
+
+    .features h2 {
+      margin-bottom: 20px;
+    }
+
     .features article {
       display: flex;
       justify-content: center;
@@ -541,7 +591,7 @@ input[type=button] {
     }
 
     .features .features-item-description {
-      width: 50%;
+      width: 62%;
     }
 
    /* Reviews */
@@ -550,8 +600,18 @@ input[type=button] {
      justify-content: space-between;
    }
 
+   .reviews h2 {
+     width: 85%;
+   }
+
+   .reviews article figure,
    .reviews article div {
      width: 49%;
+   }
+
+   .reviews h3 {
+     width: 75%;
+     margin: 0;
    }
 
    /* Footer */
@@ -636,6 +696,14 @@ input[type=button] {
      width: 100%;
      justify-content: space-between;
    }
+
+   header figure {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
 
    header nav {
      width: 20%;
