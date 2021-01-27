@@ -27,10 +27,6 @@ html {
  * Customize the background color to match your design.
  */
 
- background-img {
-   background: url(../img/jake-melara-30679-unsplash.jpg) no-repeat center center fixed;
-   height: 100%;
- }
 
 ::-moz-selection {
   background: #b3d4fc;
@@ -112,6 +108,8 @@ body {
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 
 }
 
@@ -126,6 +124,7 @@ h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
   font-weight: 500;
+  margin: 0;
 
 }
 
@@ -779,6 +778,11 @@ input[type=button] {
    }
    /* Hero Area */
 
+   .hero-area h1 {
+     font-size: 3.75em;
+     width: 80%;
+   }
+
    /* Aside */
    aside .content-wrapper {
      justify-content: space-around;
@@ -786,21 +790,21 @@ input[type=button] {
 
    aside .content-wrapper .form-description,
    aside .content-wrapper .form {
-     width: 20%;
-     margin: 0;
+     width: 30%;
+
+   }
+
+   .form-description p {
+     font-size: 1.125em;
    }
 
    /* Features */
-   .features .features-items {
-     display: flex;
-     justify-content: space-around;
-     align-items: center;
-     flex-flow: wrap;
-     flex-basis: 80%;
+   .features h2 {
+     width: 90%;
    }
 
-   .features .features-item-description {
-     width: 40%;
+   .features article {
+     flex-basis: 33%;
    }
 
   /* Reviews */
@@ -849,9 +853,15 @@ FAQ Page
 
    .faq h2 {
        width: 100%;
-   }
-  }
+       font-size: 3em;
+     }
 
+     .faq h4,
+     .faq p {
+         font-size: 1.125em;
+         line-height: 1;
+     }
+   }
 
 /* ==========================================================================
    Print styles.
